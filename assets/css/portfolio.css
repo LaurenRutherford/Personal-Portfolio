@@ -1,4 +1,5 @@
 @import "bootstrap.min.css";
+
 /*
 -------------------------------------------------------------------------
 Resets
@@ -33,28 +34,34 @@ svg {
     max-width: 100%;
 }
 
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
 /*
 -------------------------------------------------------------------------
 Navigation
 ------------------------------------------------------------------------ */
+nav{
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.primary-nav {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+}
+
+.primary-nav li {
+  float: left;
+  list-style: none;
+}
 
 /*
 -------------------------------------------------------------------------
 test stuff
 ------------------------------------------------------------------------ */
-
-.big-paragraph{
-  color:#901b2e
-}
-
-#welcome-header{
-  border-top:1px solid #b9afaf;
-  margin-top:40px;
-  padding-top: 20px;
-}
-
-body{
-  color:#ff69b4;
-  text-align: center;
-  font-family: 'Open Sans', sans-serif;
-}
