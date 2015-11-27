@@ -16,10 +16,37 @@ ul {
 -------------------------------------------------------------------------
 Typography
 ------------------------------------------------------------------------ */
-h2{
-  font-family: 'Fauna One', serif;
-  font-size: 16px;
-  color: #0000ff
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #06807F;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #06807F;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #95A5A6;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  color: #95A5A6;
+}
+
+a:visited{
+  color: #06807F;
 }
 
 /*
@@ -44,8 +71,7 @@ img.displayed {
 -------------------------------------------------------------------------
 Navigation
 ------------------------------------------------------------------------ */
-nav{
-  float: left;
+nav {
   padding-top: 40px;
   padding-bottom: 40px;
 }
@@ -54,14 +80,47 @@ nav{
   padding-top: 20px;
   padding-bottom: 40px;
   width: 100%;
+  align-items: center;
 }
 
 .primary-nav li {
   float: left;
   list-style: none;
+  border-right: 1px solid #000000;
+  text-align: center;
 }
 
+.primary-nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.25em;
+  color: #95A5A6;
+}
+
+.primary-nav a:hover {
+  color: #06807F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#selected-page {
+  color: #06807F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#last-nav{
+  border-right: none;
+}
 /*
 -------------------------------------------------------------------------
 test stuff
 ------------------------------------------------------------------------ */
+
+/*
+NEED LINKS TO STAY COLOR WHEN SELECTED
+ color: #06807F;
+font-weight: bold;
+text-decoration: none; */
