@@ -49,6 +49,25 @@ a:visited{
   color: #06807F;
 }
 
+.publication-name{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #06807F;
+  font-size: 1.5em;
+}
+
+.title-and-dates{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 13.7136px;
+}
+
+li{
+  list-style: none;
+}
+
 /*
 -------------------------------------------------------------------------
 Media
