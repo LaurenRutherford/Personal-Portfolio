@@ -1,0 +1,145 @@
+@import "bootstrap.min.css";
+
+/*
+-------------------------------------------------------------------------
+Resets
+------------------------------------------------------------------------ */
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+
+
+/*
+-------------------------------------------------------------------------
+Typography
+------------------------------------------------------------------------ */
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #06807F;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #06807F;
+}
+
+h3 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  letter-spacing: 0.25em;
+  color: #95A5A6;
+}
+
+p {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+}
+
+a {
+  color: #95A5A6;
+}
+
+a:visited{
+  color: #06807F;
+}
+
+.publication-name{
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  color: #06807F;
+  font-size: 1.5em;
+}
+
+.title-and-dates{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    font-size: 13.7136px;
+}
+
+li{
+  list-style: none;
+}
+
+/*
+-------------------------------------------------------------------------
+Media
+------------------------------------------------------------------------ */
+img,
+iframe,
+video,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+img.displayed {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+/*
+-------------------------------------------------------------------------
+Navigation
+------------------------------------------------------------------------ */
+nav {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.primary-nav {
+  padding-top: 20px;
+  padding-bottom: 40px;
+  width: 100%;
+  align-items: center;
+}
+
+.primary-nav li {
+  float: left;
+  list-style: none;
+  border-right: 1px solid #000000;
+  text-align: center;
+}
+
+.primary-nav a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  text-decoration: none;
+  letter-spacing: 0.25em;
+  color: #95A5A6;
+}
+
+.primary-nav a:hover {
+  color: #06807F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#selected-page {
+  color: #06807F;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#last-nav{
+  border-right: none;
+}
+/*
+-------------------------------------------------------------------------
+test stuff
+------------------------------------------------------------------------ */
+
+/*
+NEED LINKS TO STAY COLOR WHEN SELECTED
+ color: #06807F;
+font-weight: bold;
+text-decoration: none; */
