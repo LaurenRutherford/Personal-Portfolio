@@ -68,6 +68,12 @@ li{
   list-style: none;
 }
 
+.about-body{
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 52.25em;
+}
+
 /*
 -------------------------------------------------------------------------
 Media
