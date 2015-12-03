@@ -137,6 +137,11 @@ nav {
 .footer-icons{
   color: #06807F;
   text-align: right;
+  padding-top: 50px;
+}
+
+#copyright{
+  text-align:left;
 }
 
 /*
