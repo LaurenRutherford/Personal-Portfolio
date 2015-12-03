@@ -68,6 +68,22 @@ li{
   list-style: none;
 }
 
+.about-body{
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 52.25em;
+}
+
+.work-body{
+  padding-top: 40px;
+  margin: 0 auto;
+  width: 52.25em;
+}
+
+.resume-spacing{
+  padding-top: 20px;
+}
+
 /*
 -------------------------------------------------------------------------
 Media
@@ -94,7 +110,7 @@ img.displayed {
 
 /*
 -------------------------------------------------------------------------
-Navigation
+Navigation and footer
 ------------------------------------------------------------------------ */
 nav {
   padding-top: 40px;
@@ -139,6 +155,17 @@ nav {
 #last-nav{
   border-right: none;
 }
+
+.footer-icons{
+  color: #06807F;
+  text-align: right;
+  padding-top: 50px;
+}
+
+#copyright{
+  text-align:left;
+}
+
 /*
 -------------------------------------------------------------------------
 test stuff
