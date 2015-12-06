@@ -54,7 +54,7 @@
                   }
                   </script>
 
-  <div class="container-fluid center-block work-body target" id="one" style="display: none">
+  <div class="container-fluid center-block work-body" id="one" style="display: none">
     <div>
       <div class="resume-spacing">
         <ul class="row">
@@ -225,11 +225,26 @@
                 </ul>
               </div>
             </div>
-  </div> */end writing div */
+  </div>
 
-  <div class="container-fluid center-block work-body">
-    <h1>Social Media</h1>
+  <div class="button-padding"></div>
 
+  <div class="container-fluid center-block work-body text-over-picture">
+    <a href="javascript:hideshow(document.getElementById('two'))"><h1 class="text">SOCIAL MEDIA</h1></a>
+  </div>
+
+                      <script type="text/javascript">
+                      function hideshow(which){
+                      if (!document.getElementById)
+                      return
+                      if (which.style.display=="none")
+                      which.style.display="block"
+                      else
+                      which.style.display="none"
+                      }
+                      </script>
+
+    <div class="container-fluid center-block work-body" id="two" style="display: none">
       <div>
         <div class="resume-spacing">
           <ul class="row">
@@ -309,10 +324,26 @@
                 </ul>
               </div>
             </div>
-    </div> /end social div/
+    </div>
 
-    <div class="container-fluid center-block work-body">
-      <h1>Editing</h1>
+<div class="button-padding"></div>
+
+    <div class="container-fluid center-block work-body text-over-picture">
+      <a href="javascript:hideshow(document.getElementById('three'))"><h1 class="text">EDITING</h1></a>
+    </div>
+
+                <script type="text/javascript">
+                function hideshow(which){
+                if (!document.getElementById)
+                return
+                if (which.style.display=="none")
+                which.style.display="block"
+                else
+                which.style.display="none"
+                }
+                </script>
+
+    <div class="container-fluid center-block work-body" id="three" style="display: none">
       <div>
         <div class="resume-spacing">
           <ul class="row">
@@ -370,12 +401,28 @@
           </div>
 
 
-    </div> /end editing div/
+    </div>
 
-    <div class="container-fluid center-block work-body">
-      <h1>Digital Design</h1>
-      <div>
-        <div class="resume-spacing">
+    <div class="button-padding"></div>
+
+    <div class="container-fluid center-block work-body text-over-picture">
+      <a href="javascript:hideshow(document.getElementById('four'))"><h1 class="text">DIGITAL DESIGN</h1></a>
+    </div>
+
+                  <script type="text/javascript">
+                  function hideshow(which){
+                  if (!document.getElementById)
+                  return
+                  if (which.style.display=="none")
+                  which.style.display="block"
+                  else
+                  which.style.display="none"
+                  }
+                  </script>
+
+      <div class="container-fluid center-block work-body" id="four" style="display: none">
+        <div>
+          <div class="resume-spacing">
           <ul class="row">
             <li class="col-xs-3">
               <img src="assets/images/vox-logo.png" alt="Vox Magazine logo">
@@ -399,7 +446,7 @@
             </ul>
           </div>
         </div>
-    </div> /end digital div/
+    </div>
 
     <div class="container-fluid center-block">
     <footer>
