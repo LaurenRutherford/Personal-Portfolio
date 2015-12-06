@@ -12,7 +12,7 @@
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:300,700,300italic,400italic,400' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
   <link href="/Personal-Portfolio/assets/css/portfolio.css" rel="stylesheet" type="text/css">
-  <script language="javascript" type="text/javascript" src="jquery-1.8.3.js"></script>
+  <script src="scripts.js"></script>
 </head>
 
 <body>
@@ -39,18 +39,33 @@
 
   </header>
 
-  <div class="container-fluid center-block work-body">
-    <h1>Writing</h1>
+  <div class="container-fluid center-block work-body text-over-picture">
+    <a href="javascript:hideshow(document.getElementById('one'))"><h1 class="text">WRITING</h1></a>
+  </div>
+
+                  <script type="text/javascript">
+                  function hideshow(which){
+                  if (!document.getElementById)
+                  return
+                  if (which.style.display=="none")
+                  which.style.display="block"
+                  else
+                  which.style.display="none"
+                  }
+                  </script>
+
+  <div class="container-fluid center-block work-body target" id="one" style="display: none">
     <div>
-    <div class="resume-spacing">
-      <ul class="row">
-        <li class="col-xs-3">
-          <img src="assets/images/feast-logo.png" alt="Feast Magazine logo">
-        </li>
-        <li class="col-xs-9">
-          <p class="publication-name"><em>Feast</em> Magazine</p>
-          <p class="title-and-dates">Freelance Writer, August 2015 - Present</p>
-      </div>
+      <div class="resume-spacing">
+        <ul class="row">
+          <li class="col-xs-3">
+            <img src="assets/images/feast-logo.png" alt="Feast Magazine logo">
+          </li>
+          <li class="col-xs-9">
+            <p class="publication-name"><em>Feast</em> Magazine</p>
+            <p class="title-and-dates">Freelance Writer, August 2015 - Present</p>
+          </ul>
+        </div>
 
       <div>
         <ul class="row">
@@ -74,6 +89,7 @@
             <p class="publication-name"><em>KC</em> Magazine</p>
             <p class="title-and-dates">Freelance Writer, August 2015 - Present</p>
             <p class="title-and-dates">Editorial Intern, May-August 2015</p>
+        </ul>
       </div>
 
       <div>
@@ -99,6 +115,7 @@
             <p class="title-and-dates">Freelance Writer, August 2014 - Present</p>
             <p class="title-and-dates">Editorial Intern, May-August 2013</p>
             <p class="title-and-dates">Editorial Intern, December 2013 - January 2014</p>
+          </ul>
         </div>
 
         <div>
@@ -122,6 +139,7 @@
           <li class="col-xs-9">
             <p class="publication-name">Society of American Travel Writers</p>
             <p class="title-and-dates">  Intern, October 2015</p>
+          </ul>
         </div>
 
         <div>
@@ -145,6 +163,7 @@
             <li class="col-xs-9">
               <p class="publication-name"><em>Vox</em> Magazine</p>
               <p class="title-and-dates">Contributing Writer, May-August 2015</p>
+            </ul>
           </div>
 
           <div>
@@ -168,6 +187,7 @@
               <li class="col-xs-9">
                 <p class="publication-name"><em>Columbia Missourian</em></p>
                 <p class="title-and-dates">Reporter, July-August 2014</p>
+              </ul>
             </div>
 
             <div>
@@ -191,6 +211,7 @@
                 <li class="col-xs-9">
                   <p class="publication-name"><em>The Maneater</em> Student Newspaper</p>
                   <p class="title-and-dates">Opinion and Outreach Editor, December 2013 - May 2014</p>
+                </ul>
               </div>
 
               <div>
@@ -218,6 +239,7 @@
             <li class="col-xs-9">
               <p class="publication-name">Society of American Travel Writers</p>
               <p class="title-and-dates">Conference Intern, October 2015</p>
+            </ul>
           </div>
 
           <div>
@@ -241,6 +263,7 @@
               <li class="col-xs-9">
                 <p class="publication-name"><em>Vox</em> Magazine</p>
                 <p class="title-and-dates">Digital Editor, January-May 2015</p>
+              </ul>
             </div>
 
             <div>
@@ -268,7 +291,8 @@
                   <p class="title-and-dates">Managing editor, May-October 2014</p>
                   <p class="title-and-dates">Opinion/Outreach Editor, January-May 2014</p>
                   <p class="title-and-dates">Assistant Editor, August 2013-January 2014</p>
-              </div>
+              </ul>
+            </div>
 
               <div>
                 <ul class="row">
@@ -298,7 +322,8 @@
             <li class="col-xs-9">
               <p class="publication-name"><em>Vox</em> Magazine</p>
               <p class="title-and-dates">Scene Editor, January-May 2015</p>
-          </div>
+          </ul>
+        </div>
 
           <div>
             <ul class="row">
@@ -325,6 +350,7 @@
                 <p class="title-and-dates">Managing Editor, May-October 2014</p>
                 <p class="title-and-dates">Opinion/Outreach Editor, January-May 2014</p>
                 <p class="title-and-dates">Assistant Editor, August 2013-January 2014</p>
+              </ul>
             </div>
 
             <div>
@@ -357,6 +383,7 @@
             <li class="col-xs-9">
               <p class="publication-name"><em>Vox</em> Magazine</p>
               <p class="title-and-dates">Digital Editor, January-May 2015</p>
+            </ul>
           </div>
 
           <div>
@@ -382,10 +409,10 @@
           <p id="copyright">&copy;2015 Lauren Rutherford</p>
         </li>
         <li class="col-xs-4">
-          <a href="https://twitter.com/_LaurenR" target="_blank"><i class="fa fa-twitter-square fa-2x"></a></i>
-          <a href="https://www.linkedin.com/in/lmrutherford" target="_blank"><i class="fa fa-linkedin-square fa-2x"></a></i>
-          <a href="https://www.instagram.com/_laurenr07/" target="_blank"><i class="fa fa-instagram fa-2x"></a></i>
-          <a href="https://www.pinterest.com/_LaurenR/" target="_blank"><i class="fa fa-pinterest-square fa-2x"></a></i>
+          <a href="https://twitter.com/_LaurenR" target="_blank"><i class="fa fa-twitter-square fa-2x"></i></a>
+          <a href="https://www.linkedin.com/in/lmrutherford" target="_blank"><i class="fa fa-linkedin-square fa-2x"></i></a>
+          <a href="https://www.instagram.com/_laurenr07/" target="_blank"><i class="fa fa-instagram fa-2x"></i></a>
+          <a href="https://www.pinterest.com/_LaurenR/" target="_blank"><i class="fa fa-pinterest-square fa-2x"></i></a>
         </li>
         <li class="col-xs-2"></li>
       </ul>

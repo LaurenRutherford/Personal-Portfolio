@@ -10,7 +10,9 @@ ul {
   padding: 0;
 }
 
-
+.target{
+  display: none;
+}
 
 /*
 -------------------------------------------------------------------------
@@ -34,6 +36,10 @@ h3 {
   text-transform: uppercase;
   letter-spacing: 0.25em;
   color: #95A5A6;
+}
+
+h6 {
+  font-weight: bolder;
 }
 
 p {
@@ -160,10 +166,34 @@ nav {
   text-align:left;
 }
 
+button{
+  color: #06807F;
+  background-color: #FFFFFF;
+  outline-style:none;
+}
+
+
 /*
 -------------------------------------------------------------------------
 test stuff
 ------------------------------------------------------------------------ */
+
+.text-over-picture {
+  background-color: #D0DDDD;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+.text-over-picture .text {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #06807F;
+    text-decoration: none;
+      font-size: 25px;
+}
 
 /*
 NEED LINKS TO STAY COLOR WHEN SELECTED
