@@ -55,6 +55,10 @@ a:visited{
   color: #06807F;
 }
 
+li{
+  list-style: none;
+}
+
 .publication-name{
   font-family: 'Open Sans', sans-serif;
   font-weight: normal;
@@ -68,10 +72,6 @@ a:visited{
     text-transform: uppercase;
     letter-spacing: 0.25em;
     font-size: 13.7136px;
-}
-
-li{
-  list-style: none;
 }
 
 .about-list{
@@ -125,10 +125,6 @@ li{
   margin-left: 23.25em;
 }
 
-#hello-align{
-  margin-top: 0px;
-}
-
 /*
 -------------------------------------------------------------------------
 Media
@@ -153,7 +149,7 @@ img.displayed {
 }
 /*
 -------------------------------------------------------------------------
-Navigation and footer
+Navigation and Footer
 ------------------------------------------------------------------------ */
 nav {
   padding-top: 40px;
@@ -189,6 +185,12 @@ nav {
   text-decoration: none;
 }
 
+.footer-icons{
+  color: #06807F;
+  text-align: right;
+  padding-top: 50px;
+}
+
 #selected-page {
   color: #06807F;
   font-weight: bold;
@@ -197,12 +199,6 @@ nav {
 
 #last-nav{
   border-right: none;
-}
-
-.footer-icons{
-  color: #06807F;
-  text-align: right;
-  padding-top: 50px;
 }
 
 #copyright{
@@ -242,8 +238,6 @@ test stuff
   color: none;
 }
 
-/*
-NEED LINKS TO STAY COLOR WHEN SELECTED
- color: #06807F;
-font-weight: bold;
-text-decoration: none; */
+#hello-align{
+  margin-top: 0px;
+}
