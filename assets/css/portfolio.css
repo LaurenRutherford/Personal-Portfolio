@@ -74,6 +74,14 @@ li{
   list-style: none;
 }
 
+.about-list{
+  list-style: inherit;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: normal;
+  margin: 5px;
+  list-style: none;
+}
+
 .speakers-list{
   list-style: inherit;
   font-family: 'Open Sans', sans-serif;
